@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prova1</title>
+    
+</head>
+
+<style>
+    /*menu carino*/
+    body{
+        background-image: url(sfondoalmo.jpg);
+    }
+
+    .menu{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: min-content;
+    }
+
+    .menu a{
+        display: block;
+        font-size: 5vmin;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: var(--menu);
+        padding: .5rem 0;
+        transform: scale(.95);
+        opacity: .25;
+        transition: scale 550ms linear, opacity 250ms linear;
+        color: white;
+    }
+
+    .menu a:first-of-type {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .menu:hover a:not(:hover) {
+        transform: scale(.90);
+        opacity: .25;
+    }
+    .menu a:hover {
+        transform: scale(1);
+        opacity: 1;
+    
+    }
+
+
+</style>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <a href="#">Almo</a>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </ul>
+    </nav>
+
+    
+</body>
+</html>

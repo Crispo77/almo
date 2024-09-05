@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Almo.jpg);
+    background-size: 100%;
+    
+}
+
+header {
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+
+.menu a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    list-style-type: none;
+}
+
+a:hover{
+    color: red;
+}
+
+nav{
+    padding-top: 15px;
+    text-align: center;
+
+    
+}
+
+div{
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    letter-spacing: 15px;
+    filter: drop-shadow(2px 2px 20px #ffffff);
+}
+
+span{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    background-color: rgba(109, 109, 109, 0.3);
+    padding: 7px;
+    border-radius: 30px;
+    margin: 0px;
+    margin-left: 44%;
+    margin-right: 44%;
+    margin-top: 20px;
+    
+    
+}
+
+h2 a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.social{
+    color: white;
+    font-size: 35px;
+    float: right;
+    margin: 20px;
+    margin-top: 0px;
+    
+}
+.social a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+img{
+    filter: drop-shadow(2px 2px 20px #ffffff);
+}
+
+#Contatti{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 150px;
+    font-size: 25px;
+}
